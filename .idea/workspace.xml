@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b69f7f1a-53d5-4f28-ac31-ea4b6c737f56" name="Default Changelist" comment="" />
+    <list default="true" id="b69f7f1a-53d5-4f28-ac31-ea4b6c737f56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/BinaryArrayToNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/BinaryArrayToNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/BenchmarkList" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/CompilerHints" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,51 +24,13 @@
       <FILTER>com.roman.procopenco.codewars.*</FILTER>
     </SUITE>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-783234245">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="7" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="293" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="293" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="142">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+            <state relative-caret-position="153">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +50,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1776#1796#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="105" column="57" selection-start-line="105" selection-start-column="57" selection-end-line="105" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="346">
+              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -109,12 +103,8 @@
       </list>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../../quickstart-android/quickstart-android/auth" value="PREVIEW" />
-      </map>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -122,8 +112,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/App.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/AppTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java" />
       </list>
     </option>
   </component>
@@ -151,58 +143,49 @@
         <subPane>
           <expand>
             <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="codewars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
+              <item name="codewars" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codewars" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="codewars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javacodewars" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javacodewars" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -212,7 +195,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="C:/Tools/Android" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545950410744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545992970737" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -241,8 +224,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryArrayToNumberTest">
-    <configuration name="All in javacodewars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DuplicateEncoderTest">
+    <configuration name="All in javacodewars (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacodewars" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -250,18 +233,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.concatAndConvertString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in javacodewars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacodewars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.roman.procopenco.codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
-      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.AppTest" />
-      <option name="METHOD_NAME" value="concatAndConvertString" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,7 +271,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryArrayToNumberTest.convertBinaryArrayToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DuplicateEncoderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacodewars" />
       <extension name="coverage">
         <pattern>
@@ -305,27 +280,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
-      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.BinaryArrayToNumberTest" />
-      <option name="METHOD_NAME" value="convertBinaryArrayToInt" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.DuplicateEncoderTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AppTest.concatAndConvertString" />
       <item itemvalue="JUnit.BinaryArrayToNumberTest" />
-      <item itemvalue="JUnit.BinaryArrayToNumberTest.convertBinaryArrayToInt" />
       <item itemvalue="JUnit.All in javacodewars" />
       <item itemvalue="JUnit.BinaryArrayToNumberTest.ConvertBinaryArrayToIntLoop" />
+      <item itemvalue="JUnit.All in javacodewars (1)" />
+      <item itemvalue="JUnit.DuplicateEncoderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuplicateEncoderTest" />
         <item itemvalue="JUnit.BinaryArrayToNumberTest" />
+        <item itemvalue="JUnit.All in javacodewars (1)" />
         <item itemvalue="JUnit.BinaryArrayToNumberTest.ConvertBinaryArrayToIntLoop" />
         <item itemvalue="JUnit.All in javacodewars" />
-        <item itemvalue="JUnit.BinaryArrayToNumberTest.convertBinaryArrayToInt" />
-        <item itemvalue="JUnit.AppTest.concatAndConvertString" />
       </list>
     </recent_temporary>
   </component>
@@ -343,42 +316,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinaryArrayToNumberTest_convertBinaryArrayToInt - 2018.12.27 at 22h 24m 25s.xml">
-      <configuration name="BinaryArrayToNumberTest.convertBinaryArrayToInt" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 44m 32s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest - 2018.12.27 at 22h 25m 47s.xml">
-      <configuration name="BinaryArrayToNumberTest" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 47m 45s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest - 2018.12.27 at 22h 53m 42s.xml">
-      <configuration name="BinaryArrayToNumberTest" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 53m 11s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest - 2018.12.27 at 23h 17m 27s.xml">
-      <configuration name="BinaryArrayToNumberTest" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 53m 15s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest - 2018.12.27 at 23h 19m 23s.xml">
-      <configuration name="BinaryArrayToNumberTest" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 58m 39s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_javacodewars - 2018.12.27 at 23h 20m 43s.xml">
-      <configuration name="All in javacodewars" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 59m 27s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest - 2018.12.27 at 23h 25m 45s.xml">
-      <configuration name="BinaryArrayToNumberTest" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 10h 00m 51s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest_ConvertBinaryArrayToIntLoop - 2018.12.27 at 23h 26m 01s.xml">
-      <configuration name="BinaryArrayToNumberTest.ConvertBinaryArrayToIntLoop" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 10h 01m 46s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest - 2018.12.27 at 23h 38m 37s.xml">
-      <configuration name="BinaryArrayToNumberTest" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 11h 18m 21s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinaryArrayToNumberTest - 2018.12.27 at 23h 39m 43s.xml">
-      <configuration name="BinaryArrayToNumberTest" configurationId="JUnit" />
+    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 11h 23m 52s.xml">
+      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -388,8 +361,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,6 +370,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -409,9 +383,6 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -438,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3740">
@@ -455,22 +419,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="86" column="14" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+        <state relative-caret-position="346">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="153">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="105" column="57" selection-start-line="105" selection-start-column="57" selection-end-line="105" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1776#1796#0" expanded="true" />
           </folding>
         </state>
       </provider>

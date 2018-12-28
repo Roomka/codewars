@@ -6,6 +6,11 @@ import org.openjdk.jmh.annotations.State;
 import java.util.List;
 
 public class BinaryArrayToNumber {
+    /**
+     * https://www.codewars.com/kata/578553c3a1b8d5c40300037c/train/java
+     * @param binary
+     * @return
+     */
 
     public static int ConvertBinaryArrayToIntLoop(List<Integer> binary) {
         int decimalValue = 0;

@@ -3,6 +3,7 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,com/roman/procopenco/codewars/BinaryArrayToNumberTest.ConvertBinaryArrayToIntLoop
-inline,com/roman/procopenco/codewars/BinaryArrayToNumberTest.ConvertBinaryArrayToIntStream
-inline,com/roman/procopenco/codewars/BinaryArrayToNumberTest.convertBinaryArrayToInt
+inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeHashMap
+inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeHashpMapOptimized
+inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeLastIndexOf
+inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeStream
