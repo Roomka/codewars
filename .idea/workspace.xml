@@ -2,15 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69f7f1a-53d5-4f28-ac31-ea4b6c737f56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/HighAndLow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/NthSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/YourOrderPlease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BenchmarkUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/HighAndLowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/NthSeriesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/HighAndLow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/YourOrderPlease.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/HighAndLowTest_highAndLow_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType_B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType_B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType_B3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType_B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType_B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType_B3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative1_1_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative1_2_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative1_3_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative2_1_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative2_2_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative2_3_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderStream_1_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderStream_2_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-test-sources/test-annotations/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderStream_3_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/BenchmarkUtility$BenchmarkState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/BenchmarkUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/HighAndLowTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/YourOrderPleaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/HighAndLowTest_highAndLow_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType_B1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType_B2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/HighAndLowTest_jmhType_B3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType_B1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType_B2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_jmhType_B3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative1_1_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative1_2_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative1_3_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative2_1_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative2_2_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderImperative2_3_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderStream_1_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderStream_2_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/generated/YourOrderPleaseTest_testOrderStream_3_jmhTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/BinaryArrayToNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/BinaryArrayToNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/BenchmarkList" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/CompilerHints" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/BinaryArrayToNumberTest$BenchmarkState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/BinaryArrayToNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/BinaryArrayToNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/DuplicateEncoderTest$BenchmarkState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/DuplicateEncoderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/DuplicateEncoderTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="119">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,56 +88,99 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="527">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/HighAndLow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/YourOrderPlease.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/NthSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="244">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1776#1796#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/NthSeriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="105" column="57" selection-start-line="105" selection-start-column="57" selection-end-line="105" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3740">
-              <caret line="237" selection-start-line="237" selection-end-line="237" />
+            <state relative-caret-position="408">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
-                <element signature="e#8323#8324#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BenchmarkUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -103,6 +195,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -113,9 +210,16 @@
         <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/AppTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BenchmarkUtility.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/HighAndLowTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/HighAndLow.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/YourOrderPlease.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/NthSeries.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/NthSeriesTest.java" />
       </list>
     </option>
   </component>
@@ -132,13 +236,14 @@
     <option name="width" value="1168" />
     <option name="height" value="837" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,11 +296,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="C:/Tools/Android" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545992970737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546268244036" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -224,23 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DuplicateEncoderTest">
-    <configuration name="All in javacodewars (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javacodewars" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in javacodewars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javacodewars" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.NthSeriesTest">
     <configuration name="BinaryArrayToNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacodewars" />
       <extension name="coverage">
@@ -251,22 +342,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
       <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.BinaryArrayToNumberTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryArrayToNumberTest.ConvertBinaryArrayToIntLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javacodewars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.roman.procopenco.codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
-      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.BinaryArrayToNumberTest" />
-      <option name="METHOD_NAME" value="ConvertBinaryArrayToIntLoop" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,20 +360,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HighAndLowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacodewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roman.procopenco.codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
+      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.HighAndLowTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthSeriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacodewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roman.procopenco.codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
+      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.NthSeriesTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YourOrderPleaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacodewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roman.procopenco.codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
+      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.YourOrderPleaseTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.BinaryArrayToNumberTest" />
-      <item itemvalue="JUnit.All in javacodewars" />
-      <item itemvalue="JUnit.BinaryArrayToNumberTest.ConvertBinaryArrayToIntLoop" />
-      <item itemvalue="JUnit.All in javacodewars (1)" />
       <item itemvalue="JUnit.DuplicateEncoderTest" />
+      <item itemvalue="JUnit.HighAndLowTest" />
+      <item itemvalue="JUnit.YourOrderPleaseTest" />
+      <item itemvalue="JUnit.NthSeriesTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DuplicateEncoderTest" />
+        <item itemvalue="JUnit.NthSeriesTest" />
+        <item itemvalue="JUnit.YourOrderPleaseTest" />
+        <item itemvalue="JUnit.HighAndLowTest" />
         <item itemvalue="JUnit.BinaryArrayToNumberTest" />
-        <item itemvalue="JUnit.All in javacodewars (1)" />
-        <item itemvalue="JUnit.BinaryArrayToNumberTest.ConvertBinaryArrayToIntLoop" />
-        <item itemvalue="JUnit.All in javacodewars" />
+        <item itemvalue="JUnit.DuplicateEncoderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,42 +433,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 44m 32s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 36m 41s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 47m 45s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 37m 46s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 53m 11s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 40m 22s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 53m 15s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 41m 53s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 58m 39s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 45m 34s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 09h 59m 27s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 46m 08s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 10h 00m 51s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 52m 54s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 10h 01m 46s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 54m 14s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 11h 18m 21s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 55m 00s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DuplicateEncoderTest - 2018.12.28 at 11h 23m 52s.xml">
-      <configuration name="DuplicateEncoderTest" configurationId="JUnit" />
+    <history-entry file="NthSeriesTest - 2018.12.31 at 15h 55m 52s.xml">
+      <configuration name="NthSeriesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -361,16 +478,15 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,9 +498,20 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="11" />
     </layout>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="x" />
@@ -426,20 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BinaryArrayToNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -448,18 +565,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/DuplicateEncoderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="105" column="57" selection-start-line="105" selection-start-column="57" selection-end-line="105" selection-end-column="57" />
+        <state relative-caret-position="68">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/HighAndLowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BinaryArrayToNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/DuplicateEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="527">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1776#1796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/HighAndLow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/YourOrderPlease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BenchmarkUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/NthSeriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/NthSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

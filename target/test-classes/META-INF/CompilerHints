@@ -3,7 +3,6 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeHashMap
-inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeHashpMapOptimized
-inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeLastIndexOf
-inline,com/roman/procopenco/codewars/DuplicateEncoderTest.encodeStream
+inline,com/roman/procopenco/codewars/NthSeriesTest.testSeriesSumPersonal
+inline,com/roman/procopenco/codewars/NthSeriesTest.testSeriesSumStream
+inline,com/roman/procopenco/codewars/NthSeriesTest.testseriesSumImperative
