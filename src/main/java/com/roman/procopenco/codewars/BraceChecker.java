@@ -3,6 +3,11 @@ package com.roman.procopenco.codewars;
 import java.util.*;
 
 public class BraceChecker  {
+    /**
+     * https://www.codewars.com/kata/5277c8a221e209d3f6000b56/solutions/java
+     * @param braces
+     * @return
+     */
 
     public static boolean isValid(String braces) {
         Deque<Character> parentheses = new ArrayDeque<>();
