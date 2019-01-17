@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69f7f1a-53d5-4f28-ac31-ea4b6c737f56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/ValidPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/ValidPhoneNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/ValidPhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/roman/procopenco/codewars/ValidPhoneNumberTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/FindOutlier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/FindOutlier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/FindOutlierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/FindOutlierTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/BraceChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/BraceChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/FindOutlier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/roman/procopenco/codewars/FindOutlier.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,40 +24,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/NthSeries.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/FindOutlier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BraceChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="76" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/FindOutlier.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/ValidPhoneNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/FindOutlierTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/ValidPhoneNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="57" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -154,6 +153,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/BraceChecker.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/FindOutlierTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/FindOutlier.java" />
+        <option value="$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/ValidPhoneNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/ValidPhoneNumber.java" />
       </list>
     </option>
   </component>
@@ -236,7 +237,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="C:/Tools/Android" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547726389207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547727307646" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -266,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindOutlierTest">
+  <component name="RunManager" selected="JUnit.ValidPhoneNumberTest">
     <configuration name="BraceCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacodewars" />
       <extension name="coverage">
@@ -295,20 +296,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighAndLowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javacodewars" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.roman.procopenco.codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
-      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.HighAndLowTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NthSeriesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javacodewars" />
       <extension name="coverage">
@@ -319,6 +306,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
       <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.NthSeriesTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidPhoneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javacodewars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.roman.procopenco.codewars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.roman.procopenco.codewars" />
+      <option name="MAIN_CLASS_NAME" value="com.roman.procopenco.codewars.ValidPhoneNumberTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -338,19 +339,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HighAndLowTest" />
       <item itemvalue="JUnit.YourOrderPleaseTest" />
       <item itemvalue="JUnit.NthSeriesTest" />
       <item itemvalue="JUnit.BraceCheckerTest" />
       <item itemvalue="JUnit.FindOutlierTest" />
+      <item itemvalue="JUnit.ValidPhoneNumberTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidPhoneNumberTest" />
         <item itemvalue="JUnit.FindOutlierTest" />
         <item itemvalue="JUnit.BraceCheckerTest" />
         <item itemvalue="JUnit.NthSeriesTest" />
         <item itemvalue="JUnit.YourOrderPleaseTest" />
-        <item itemvalue="JUnit.HighAndLowTest" />
       </list>
     </recent_temporary>
   </component>
@@ -368,12 +369,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BraceCheckerTest - 2018.12.31 at 17h 12m 33s.xml">
-      <configuration name="BraceCheckerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BraceCheckerTest - 2018.12.31 at 17h 14m 13s.xml">
-      <configuration name="BraceCheckerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BraceCheckerTest - 2018.12.31 at 17h 22m 18s.xml">
       <configuration name="BraceCheckerTest" configurationId="JUnit" />
     </history-entry>
@@ -398,6 +393,12 @@
     <history-entry file="FindOutlierTest - 2019.01.08 at 09h 13m 24s.xml">
       <configuration name="FindOutlierTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ValidPhoneNumberTest - 2019.01.17 at 13h 12m 35s.xml">
+      <configuration name="ValidPhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidPhoneNumberTest - 2019.01.17 at 13h 12m 52s.xml">
+      <configuration name="ValidPhoneNumberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -413,7 +414,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/BenchmarkUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -636,10 +630,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/YourOrderPleaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/roman/procopenco/codewars/ValidPhoneNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/FindOutlier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/roman/procopenco/codewars/ValidPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
         </state>
       </provider>
     </entry>
