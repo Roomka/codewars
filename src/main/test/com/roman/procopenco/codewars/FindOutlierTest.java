@@ -15,4 +15,13 @@ public class FindOutlierTest {
         assertEquals(206847684, FindOutlier.find(exampleTest2));
         assertEquals(0, FindOutlier.find(exampleTest3));
     }
+
+    @Test
+    public void getNumbersModulus() {
+        int[] oddNumbers = {1, 2, 3};
+        int[] evenNumbers = {4, 3, 6};
+        assertEquals(1, FindOutlier.getNumbersModulus(oddNumbers));
+        assertEquals(0, FindOutlier.getNumbersModulus(evenNumbers));
+
+    }
 }

@@ -60,4 +60,14 @@ public class YourOrderPleaseTest extends BenchmarkUtility {
     public void testOrderStream_3() {
         assertThat("Empty input should return empty string", YourOrderPlease.orderStream(""), equalTo(""));
     }
+
+    @Test
+    public void getNumber() {
+        String singleWord  = "Thi1s";
+        String wordWithoutNumber  = "This";
+
+        assertEquals(1, YourOrderPlease.getNumber(singleWord));
+        assertEquals(0, YourOrderPlease.getNumber(wordWithoutNumber));
+
+    }
 }

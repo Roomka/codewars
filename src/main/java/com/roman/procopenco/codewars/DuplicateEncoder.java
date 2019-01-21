@@ -47,7 +47,7 @@ public class DuplicateEncoder {
      * @param charMap
      */
 
-    private static void calculateCharOccurences(char[] characters, Map charMap) {
+    protected static void calculateCharOccurences(char[] characters, Map charMap) {
         for (char s : characters) {
             if (charMap.containsKey(s)) {
                 int occurences = (int) charMap.get(s);
@@ -65,7 +65,7 @@ public class DuplicateEncoder {
      * @param occurrencesCharMap
      */
 
-    private static void substituteCharacters(char[] originalCharacters, Map occurrencesCharMap) {
+    protected static void substituteCharacters(char[] originalCharacters, Map occurrencesCharMap) {
         for (int i = 0; i < originalCharacters.length; i++) {
             int occurences = (int) occurrencesCharMap.get(originalCharacters[i]);
             if (occurences > 1) {

@@ -45,7 +45,7 @@ public class FindOutlier {
      */
 
     public static int getNumbersModulus(int[] integers) {
-        if ((Math.floorMod(integers[0], 2) == 0 && Math.floorMod(integers[1], 2) == 0) || (Math.floorMod(integers[1], 2) == 0 && Math.floorMod(integers[2], 2) == 0))
+        if ((Math.abs(integers[0] % 2) == 0 && Math.abs(integers[1]% 2) == 0) || (Math.abs(integers[1] % 2) == 0 && Math.abs(integers[2] % 2) == 0) || (Math.abs(integers[0] % 2) == 0 && Math.abs(integers[2] % 2) == 0))
             return 0;
         else
             return 1;

@@ -61,7 +61,7 @@ public class BraceChecker {
      * @return if closing bracket is valid or not.
      */
 
-    private static boolean isClosingValid(Map<Character, Character> bracesMap, Deque deque, Character closingCharacter) {
+    protected static boolean isClosingValid(Map<Character, Character> bracesMap, Deque deque, Character closingCharacter) {
         if (deque.isEmpty()) {
             return false;
         }
@@ -94,7 +94,7 @@ public class BraceChecker {
      * @return if closing bracket is valid or not.
      */
 
-    public static boolean isClosing(char openingBracket, char closingBracket) {
+    protected static boolean isClosing(char openingBracket, char closingBracket) {
         return (openingBracket == '{' && closingBracket == '}') || (openingBracket == '(' && closingBracket == ')') || (openingBracket == '[' && closingBracket == ']');
     }
 

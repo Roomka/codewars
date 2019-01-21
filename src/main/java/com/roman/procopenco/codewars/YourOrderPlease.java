@@ -99,7 +99,8 @@ public class YourOrderPlease {
 
     public static int getNumber(String s) {
         String numberOfWord = s.replaceAll("[^0-9]", "");
-        return Integer.parseInt(numberOfWord.trim());
+        if (numberOfWord.trim().isEmpty()) return 0;
+        else return Integer.parseInt(numberOfWord.trim());
     }
 
     /**

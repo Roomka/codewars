@@ -239,6 +239,9 @@ Summary:
   
 
 
+  &#124; <a href="#promethods">Protected Methods</a>
+  
+
 
   &#124; <a href="#inhmethods">Inherited Methods</a>
 
@@ -424,24 +427,6 @@ Summary:
             boolean</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/BraceChecker.html#isClosing(char, char)">isClosing</a></span>(char openingBracket, char closingBracket)</nobr>
-        
-        <div class="jd-descrdiv">Checks if closing bracket is valid , that is if it's the same type as opening one.</div>
-  
-  </td></tr>
-
-
-	 
-    <tr class=" api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            static
-            
-            boolean</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/BraceChecker.html#isValid(java.lang.String)">isValid</a></span>(String braces)</nobr>
         
         <div class="jd-descrdiv">Imperative solution, that uses a stack to add all opening braces and pop al closing ones.</div>
@@ -450,7 +435,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol"><nobr>
             
             
@@ -471,6 +456,51 @@ Summary:
 </table>
 
 
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+<table id="promethods" class="jd-sumtable"><tr><th colspan="12">Protected Methods</th></tr>
+
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            static
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/BraceChecker.html#isClosing(char, char)">isClosing</a></span>(char openingBracket, char closingBracket)</nobr>
+        
+        <div class="jd-descrdiv">Checks if closing bracket is valid , that is if it's the same type as opening one.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            static
+            
+            boolean</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/BraceChecker.html#isClosingValid(java.util.Map<java.lang.Character, java.lang.Character>, java.util.Deque, java.lang.Character)">isClosingValid</a></span>(Map&lt;Character,&nbsp;Character&gt; bracesMap, Deque deque, Character closingCharacter)</nobr>
+        
+        <div class="jd-descrdiv">Checks if the closing brace is valid, based on the opening one added to stack.</div>
+  
+  </td></tr>
+
+
+
+</table>
 
 
 
@@ -509,10 +539,42 @@ From class
             
             
             
+            Object</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">clone</span>()</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
             boolean</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad">equals</span>(Object arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">finalize</span>()</nobr>
         
   </td></tr>
 
@@ -587,12 +649,12 @@ From class
             
             
             
+            static
             
-            
-            String</nobr>
+            void</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">toString</span>()</nobr>
+        <span class="sympad">registerNatives</span>()</nobr>
         
   </td></tr>
 
@@ -602,13 +664,13 @@ From class
         <td class="jd-typecol"><nobr>
             
             
-            final
             
             
-            void</nobr>
+            
+            String</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
+        <span class="sympad">toString</span>()</nobr>
         
   </td></tr>
 
@@ -624,13 +686,29 @@ From class
             void</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">wait</span>(long arg0)</nobr>
+        <span class="sympad">wait</span>(long arg0, int arg1)</nobr>
         
   </td></tr>
 
 
 	 
     <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            final
+            
+            
+            void</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad">wait</span>(long arg0)</nobr>
+        
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
         <td class="jd-typecol"><nobr>
             
             
@@ -731,42 +809,6 @@ From class
 
 
 
-<A NAME="isClosing(char, char)"></A>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        boolean
-      </span>
-      <span class="sympad">isClosing</span>
-      <span class="normal">(char openingBracket, char closingBracket)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Checks if closing bracket is valid , that is if it's the same type as opening one.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>if closing bracket is valid or not.
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <A NAME="isValid(java.lang.String)"></A>
 
 <div class="jd-details api apilevel-"> 
@@ -863,6 +905,100 @@ From class
 
 
 <!-- ========= METHOD DETAIL ======== -->
+
+<h2>Protected Methods</h2>
+
+
+
+<A NAME="isClosing(char, char)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        protected 
+        static 
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isClosing</span>
+      <span class="normal">(char openingBracket, char closingBracket)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Checks if closing bracket is valid , that is if it's the same type as opening one.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>if closing bracket is valid or not.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<A NAME="isClosingValid(java.util.Map<java.lang.Character, java.lang.Character>, java.util.Deque, java.lang.Character)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        protected 
+        static 
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isClosingValid</span>
+      <span class="normal">(Map&lt;Character,&nbsp;Character&gt; bracesMap, Deque deque, Character closingCharacter)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Checks if the closing brace is valid, based on the opening one added to stack.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>bracesMap</td>
+          <td>map with braces, key as opening brace and value as closing brace.</td>
+        </tr>
+        <tr>
+          <th>deque</td>
+          <td>stack with braces</td>
+        </tr>
+        <tr>
+          <th>closingCharacter</td>
+          <td>last closing character.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>if closing bracket is valid or not.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
 
 
 

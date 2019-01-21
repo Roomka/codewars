@@ -81,11 +81,28 @@
  static="true"
  final="false"
  deprecated="not deprecated"
- visibility="public"
+ visibility="protected"
 >
 <parameter name="openingBracket" type="char">
 </parameter>
 <parameter name="closingBracket" type="char">
+</parameter>
+</method>
+<method name="isClosingValid"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="bracesMap" type="java.util.Map&lt;java.lang.Character, java.lang.Character&gt;">
+</parameter>
+<parameter name="deque" type="java.util.Deque">
+</parameter>
+<parameter name="closingCharacter" type="java.lang.Character">
 </parameter>
 </method>
 <method name="isValid"
@@ -174,6 +191,21 @@
  visibility="public"
 >
 </constructor>
+<method name="calculateCharOccurences"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="private"
+>
+<parameter name="characters" type="char[]">
+</parameter>
+<parameter name="charMap" type="java.util.Map">
+</parameter>
+</method>
 <method name="encodeHashMap"
  return="java.lang.String"
  abstract="false"
@@ -185,6 +217,47 @@
  visibility="public"
 >
 <parameter name="word" type="java.lang.String">
+</parameter>
+</method>
+<method name="encodeHashpMapOptimized"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility=""
+>
+<parameter name="word" type="java.lang.String">
+</parameter>
+</method>
+<method name="encodeStream"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility=""
+>
+<parameter name="word" type="java.lang.String">
+</parameter>
+</method>
+<method name="substituteCharacters"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="private"
+>
+<parameter name="originalCharacters" type="char[]">
+</parameter>
+<parameter name="occurrencesCharMap" type="java.util.Map">
 </parameter>
 </method>
 </class>
@@ -204,6 +277,19 @@
  visibility="public"
 >
 </constructor>
+<method name="find"
+ return="int"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility=""
+>
+<parameter name="integers" type="int[]">
+</parameter>
+</method>
 <method name="getNumbersModulus"
  return="int"
  abstract="false"
@@ -342,6 +428,19 @@
  final="false"
  deprecated="not deprecated"
  visibility="public"
+>
+<parameter name="sentence" type="java.lang.String">
+</parameter>
+</method>
+<method name="checkStream2"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility=""
 >
 <parameter name="sentence" type="java.lang.String">
 </parameter>

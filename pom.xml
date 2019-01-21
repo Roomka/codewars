@@ -31,14 +31,15 @@
                     </docletArtifact>
                     <doclet>com.google.doclava.Doclava</doclet> <!-- | bootclasspath required by Sun's JVM -->
                     <bootclasspath>${sun.boot.class.path}</bootclasspath>
-                    <additionalparam>-quiet -federate JDK http://download.oracle.com/javase/6/docs/api/index.html?
+                    <additionalparam>-quiet -federate JDK
+                        http://download.oracle.com/javase/6/docs/api/index.html?
                         -federationxml JDK http://doclava.googlecode.com/svn/static/api/openjdk-6.xml -hdf project.name
                         "${project.name}" -d ${project.basedir}/docs
                     </additionalparam>
                     <useStandardDocletOptions>false
                     </useStandardDocletOptions> <!-- | Apple's JVM sometimes requires more memory -->
                     <additionalJOption>-J-Xmx1024m</additionalJOption>
-                    <show>public</show>
+                    <show>private</show>
                 </configuration>
             </plugin>
             <plugin>

@@ -3,6 +3,10 @@ package com.roman.procopenco.codewars;
 import org.junit.Test;
 import org.openjdk.jmh.annotations.Benchmark;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class DuplicateEncoderTest extends BenchmarkUtility {
@@ -43,8 +47,35 @@ public class DuplicateEncoderTest extends BenchmarkUtility {
     }
 
 
+    @Test
+    public void calculateCharOccurences() {
+        char[] characters = "aabbc".toCharArray();
+        Map charMap = new HashMap<Character, Integer>();
+        Map expectedCharMap = new HashMap<Character, Integer>();
+        expectedCharMap.put('a', 2);
+        expectedCharMap.put('b', 2);
+        expectedCharMap.put('c', 1);
+
+        DuplicateEncoder.calculateCharOccurences(characters, charMap);
+
+        assertEquals(expectedCharMap, charMap);
 
 
+    }
 
+    @Test
+    public void substituteCharacters() {
+        char[] characters = "aabbc".toCharArray();
+        Map charMap = new HashMap<Character, Integer>();
+        charMap.put('a', 2);
+        charMap.put('b', 2);
+        charMap.put('c', 1);
 
+        char[] substitutedArray = "))))(".toCharArray();
+
+        DuplicateEncoder.substituteCharacters(characters, charMap);
+
+        assertArrayEquals(substitutedArray, characters);
+
+    }
 }

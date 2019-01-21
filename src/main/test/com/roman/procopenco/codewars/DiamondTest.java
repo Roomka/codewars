@@ -26,4 +26,25 @@ public class DiamondTest {
 
         assertEquals(expected.toString(), Diamond.print(5));
     }
+
+    @Test
+    public void testDiamond3Stream() {
+        StringBuffer expected = new StringBuffer();
+        expected.append(" *\n");
+        expected.append("***\n");
+        expected.append(" *\n");
+        assertEquals(expected.toString(), Diamond.printStream(3));
+    }
+
+    @Test
+    public void testDiamond5Stream() {
+        StringBuffer expected = new StringBuffer();
+        expected.append("  *\n");
+        expected.append(" ***\n");
+        expected.append("*****\n");
+        expected.append(" ***\n");
+        expected.append("  *\n");
+
+        assertEquals(expected.toString(), Diamond.printStream(5));
+    }
 }
