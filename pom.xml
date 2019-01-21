@@ -33,7 +33,7 @@
                     <bootclasspath>${sun.boot.class.path}</bootclasspath>
                     <additionalparam>-quiet -federate JDK http://download.oracle.com/javase/6/docs/api/index.html?
                         -federationxml JDK http://doclava.googlecode.com/svn/static/api/openjdk-6.xml -hdf project.name
-                        "${project.name}" -d ${project.build.directory}/apidocs
+                        "${project.name}" -d ${project.basedir}/docs
                     </additionalparam>
                     <useStandardDocletOptions>false
                     </useStandardDocletOptions> <!-- | Apple's JVM sometimes requires more memory -->
