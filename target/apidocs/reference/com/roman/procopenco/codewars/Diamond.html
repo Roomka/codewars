@@ -312,6 +312,19 @@ Summary:
 <div class="jd-descr">
 
 
+<h2>Class Overview</h2>
+<p>https://www.codewars.com/kata/give-me-a-diamond/train/java <br/>
+ This kata is to practice simple string output. Jamie is a programmer, and James' girlfriend. She likes diamonds, and wants a diamond string from James. Since James doesn't know how to make this happen, he needs your help.<br/>
+ <p>
+ ###Task: <br/>
+ <p>
+ You need to return a string that displays a diamond shape on the screen using asterisk ("*") characters. Please see provided test cases for exact output format.<br/>
+ <p>
+ The shape that will be returned from print method resembles a diamond, where the number provided as input represents the number of *’s printed on the middle line. The line above and below will be centered and will have 2 less *’s than the middle line. This reduction by 2 *’s for each line continues until a line with a single * is printed at the top and bottom of the figure.<br/>
+ <p>
+ Return null if input is even number or negative (as it is not possible to print diamond with even number or negative number).<br/>
+</p>
+
 
 
 
@@ -407,7 +420,25 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/Diamond.html#print(int)">print</a></span>(int n)</nobr>
         
-        <div class="jd-descrdiv">https://www.codewars.com/kata/give-me-a-diamond/train/java</div>
+        <div class="jd-descrdiv">Print a diamond asterisk composed of number of rows passed as parameter.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol"><nobr>
+            
+            
+            
+            static
+            
+            String</nobr>
+        </td>
+        <td class="jd-linkcol" width="100%"><nobr>
+        <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/Diamond.html#printStream(int)">printStream</a></span>(int n)</nobr>
+        
+        <div class="jd-descrdiv">Print a diamond asterisk composed of number of rows passed as parameter.</div>
   
   </td></tr>
 
@@ -454,42 +485,10 @@ From class
             
             
             
-            Object</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">clone</span>()</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class=" api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
             boolean</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad">equals</span>(Object arg0)</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
-            void</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">finalize</span>()</nobr>
         
   </td></tr>
 
@@ -733,7 +732,40 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>https://www.codewars.com/kata/give-me-a-diamond/train/java</p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Print a diamond asterisk composed of number of rows passed as parameter.
+ Iterative Solution implementation.</p></div>
+
+    </div>
+</div>
+
+
+<A NAME="printStream(int)"></A>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">printStream</span>
+      <span class="normal">(int n)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Print a diamond asterisk composed of number of rows passed as parameter.
+ Implementation proposed using java streams.</p></div>
 
     </div>
 </div>

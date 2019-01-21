@@ -312,6 +312,20 @@ Summary:
 <div class="jd-descr">
 
 
+<h2>Class Overview</h2>
+<p>https://www.codewars.com/kata/find-the-parity-outlier/train/java <br/>
+ <p>You are given an array (which will have a length of at least 3, but could be very large) containing integers. The array is either entirely comprised of odd integers or
+ entirely comprised of even integers except for a single integer N. Write a method that takes the array as an argument and returns this "outlier" N.</p>
+
+ <p>
+ Examples <br/>
+ [2, 4, 0, 100, 4, 11, 2602, 36] <br/>
+ Should return: 11 (the only odd number) <br/>
+ <p>
+ [160, 3, 1719, 19, 11, 13, -21] <br/>
+ Should return: 160 (the only even number) <br/>
+</p>
+
 
 
 
@@ -407,6 +421,8 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/FindOutlier.html#getNumbersModulus(int[])">getNumbersModulus</a></span>(int[] integers)</nobr>
         
+        <div class="jd-descrdiv">Returns array modulus based on first three items.</div>
+  
   </td></tr>
 
 
@@ -452,42 +468,10 @@ From class
             
             
             
-            Object</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">clone</span>()</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class=" api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
             boolean</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad">equals</span>(Object arg0)</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
-            void</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">finalize</span>()</nobr>
         
   </td></tr>
 
@@ -731,7 +715,12 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Returns array modulus based on first three items.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>0 if they are even numbers, odd otherwise.
+</li></ul>
+  </div>
 
     </div>
 </div>

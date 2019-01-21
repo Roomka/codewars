@@ -30,7 +30,7 @@ public class DuplicateEncoder {
      * @return substituted word.
      */
 
-    static String encodeHashMap(String word) {
+    public static String encodeHashMap(String word) {
         char[] characters = word.toLowerCase().toCharArray();
         Map charMap = new HashMap<Character, Integer>();
 
@@ -128,6 +128,5 @@ public class DuplicateEncoder {
         }
         return result.toString();
     }
-
 
 }

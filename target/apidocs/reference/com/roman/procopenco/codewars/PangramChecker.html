@@ -312,6 +312,14 @@ Summary:
 <div class="jd-descr">
 
 
+<h2>Class Overview</h2>
+<p>https://www.codewars.com/kata/detect-pangram/train/java <br>
+ A pangram is a sentence that contains every single letter of the alphabet at least once.<br/>
+ For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant). <br/>
+ <br/>
+ Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation. <br/>
+</p>
+
 
 
 
@@ -407,7 +415,7 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/PangramChecker.html#check(java.lang.String)">check</a></span>(String sentence)</nobr>
         
-        <div class="jd-descrdiv">https://www.codewars.com/kata/detect-pangram/train/java</div>
+        <div class="jd-descrdiv">Checks if a string is a pangram or not.</div>
   
   </td></tr>
 
@@ -425,6 +433,8 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/PangramChecker.html#checkStream1(java.lang.String)">checkStream1</a></span>(String sentence)</nobr>
         
+        <div class="jd-descrdiv">Checks if a string is a pangram or not.</div>
+  
   </td></tr>
 
 
@@ -470,42 +480,10 @@ From class
             
             
             
-            Object</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">clone</span>()</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class=" api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
             boolean</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad">equals</span>(Object arg0)</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
-            void</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">finalize</span>()</nobr>
         
   </td></tr>
 
@@ -749,7 +727,8 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>https://www.codewars.com/kata/detect-pangram/train/java</p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Checks if a string is a pangram or not.
+ Iterative solution, the algorithm creates a hashset of letters and check is the size is 26, that is if it contains all letters of alphabet.</p></div>
 
     </div>
 </div>
@@ -780,7 +759,8 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Checks if a string is a pangram or not.
+ Stream java solution 1, the algorithm filter all alphabetic characters and checks if the distinct values count is 26, that is if it contains all letters of alphabet. .</p></div>
 
     </div>
 </div>

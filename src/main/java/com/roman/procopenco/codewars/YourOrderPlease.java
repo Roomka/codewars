@@ -2,10 +2,26 @@ package com.roman.procopenco.codewars;
 
 import java.util.*;
 
+/**
+ * https://www.codewars.com/kata/your-order-please/train/java <br/> <br/>
+ * Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result. <br/> <br/>
+ * <p>
+ * Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0). <br/> <br/>
+ * <p>
+ * If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers. <br/> <br/>
+ * <p>
+ * Examples <br/>
+ * "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est" <br/>
+ * "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople" <br/>
+ * ""  -->  "" <br/>
+ */
+
 public class YourOrderPlease {
     /**
-     * https://www.codewars.com/kata/your-order-please/train/java
-     * Imperative solution 1
+     * Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.
+     * Imperative solution 1, the algorithm uses a hashmap to store as key the number and as value the word, and
+     * then iterates the number ordered to compose the new string.
+     *
      * @param words
      * @return
      */
@@ -50,6 +66,9 @@ public class YourOrderPlease {
     }
 
     /**
+     * Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.
+     * Imperative solution 2, the algorithm uses a hashmap to store as key the number and as value the word, and
+     * then iterates the number ordered to compose the new string.
      *
      * @param words
      * @return
@@ -72,10 +91,25 @@ public class YourOrderPlease {
         return resultString.trim();
     }
 
+    /**
+     * Get the number contained in the string, the algorithm remove all non digit characters and return the remaining number contained in the string.
+     * @param s
+     * @return
+     */
+
     public static int getNumber(String s) {
         String numberOfWord = s.replaceAll("[^0-9]", "");
         return Integer.parseInt(numberOfWord.trim());
     }
+
+    /**
+     * Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.
+     * Java streams solution 2, the algorithm uses a hashmap to store as key the number and as value the word, and
+     * then iterates the number ordered to compose the new string.
+     *
+     * @param words
+     * @return
+     */
 
     public static String orderStream(String words) {
         return Arrays.stream(words.split(" "))

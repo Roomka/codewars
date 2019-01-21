@@ -312,6 +312,20 @@ Summary:
 <div class="jd-descr">
 
 
+<h2>Class Overview</h2>
+<p>https://www.codewars.com/kata/your-order-please/train/java <br/> <br/>
+ Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result. <br/> <br/>
+ <p>
+ Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0). <br/> <br/>
+ <p>
+ If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers. <br/> <br/>
+ <p>
+ Examples <br/>
+ "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est" <br/>
+ "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople" <br/>
+ ""  -->  "" <br/>
+</p>
+
 
 
 
@@ -407,6 +421,8 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/YourOrderPlease.html#getNumber(java.lang.String)">getNumber</a></span>(String s)</nobr>
         
+        <div class="jd-descrdiv">Get the number contained in the string, the algorithm remove all non digit characters and return the remaining number contained in the string.</div>
+  
   </td></tr>
 
 
@@ -423,8 +439,7 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/YourOrderPlease.html#orderImperative1(java.lang.String)">orderImperative1</a></span>(String words)</nobr>
         
-        <div class="jd-descrdiv">https://www.codewars.com/kata/your-order-please/train/java
- Imperative solution 1</div>
+        <div class="jd-descrdiv">Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.</div>
   
   </td></tr>
 
@@ -442,6 +457,8 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/YourOrderPlease.html#orderImperative2(java.lang.String)">orderImperative2</a></span>(String words)</nobr>
         
+        <div class="jd-descrdiv">Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.</div>
+  
   </td></tr>
 
 
@@ -458,6 +475,8 @@ Summary:
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad"><a href="../../../../com/roman/procopenco/codewars/YourOrderPlease.html#orderStream(java.lang.String)">orderStream</a></span>(String words)</nobr>
         
+        <div class="jd-descrdiv">Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.</div>
+  
   </td></tr>
 
 
@@ -503,42 +522,10 @@ From class
             
             
             
-            Object</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">clone</span>()</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class=" api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
             boolean</nobr>
         </td>
         <td class="jd-linkcol" width="100%"><nobr>
         <span class="sympad">equals</span>(Object arg0)</nobr>
-        
-  </td></tr>
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol"><nobr>
-            
-            
-            
-            
-            
-            void</nobr>
-        </td>
-        <td class="jd-linkcol" width="100%"><nobr>
-        <span class="sympad">finalize</span>()</nobr>
         
   </td></tr>
 
@@ -782,7 +769,7 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Get the number contained in the string, the algorithm remove all non digit characters and return the remaining number contained in the string.</p></div>
 
     </div>
 </div>
@@ -813,8 +800,9 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>https://www.codewars.com/kata/your-order-please/train/java
- Imperative solution 1</p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.
+ Imperative solution 1, the algorithm uses a hashmap to store as key the number and as value the word, and
+ then iterates the number ordered to compose the new string.</p></div>
 
     </div>
 </div>
@@ -845,7 +833,9 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.
+ Imperative solution 2, the algorithm uses a hashmap to store as key the number and as value the word, and
+ then iterates the number ordered to compose the new string.</p></div>
 
     </div>
 </div>
@@ -876,7 +866,9 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Rearrange the words passed on the original string so that the words are ordered based on the number contained in the string.
+ Java streams solution 2, the algorithm uses a hashmap to store as key the number and as value the word, and
+ then iterates the number ordered to compose the new string.</p></div>
 
     </div>
 </div>
