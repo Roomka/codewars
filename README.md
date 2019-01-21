@@ -3,4 +3,4 @@ Codewars Java Challenges -  a repository where a saved my solutions to codewars 
 
 [![Profile badge](https://www.codewars.com/users/Roomka/badges/large)](https://www.codewars.com/users/Roomka)
 
-[Challenges documentation](target/apidocs/index.html)
+[Challenges documentation](https://roomka.github.io/codewars/)
