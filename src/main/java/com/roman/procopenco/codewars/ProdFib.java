@@ -1,5 +1,7 @@
 package com.roman.procopenco.codewars;
 
+import java.math.BigDecimal;
+
 /**
  * https://www.codewars.com/kata/5541f58a944b85ce6d00006a/train/java <br/><br/>
  *
@@ -43,8 +45,56 @@ public class ProdFib {
      * @return
      */
     public static long[] productFib(long prod) {
-        // your code
-        return null;
+        BigDecimal previousFib, currentFib,result;
+        previousFib = currentFib = result = new BigDecimal(0);
+        boolean found = false;
+        long i = 1;
+        BigDecimal prodValue = new BigDecimal(prod);
+        while (result.compareTo(prodValue) <0 ){
+            currentFib = fibonacciIterative(i);
+            result  = previousFib.multiply(currentFib) ;
+            i++;
+            if (result.compareTo(prodValue) <0){
+                previousFib = currentFib;
+            }else if (result.compareTo(prodValue) == 0 ){
+                return new long[] {previousFib.longValue(), currentFib.longValue(), 1};
+            }
+
+        }
+
+
+
+
+
+        return new long[] {previousFib.longValue(), currentFib.longValue(), 0};
+    }
+
+    public static BigDecimal fibonacciIterative(long n) {
+        if(n <= 1) {
+            return new BigDecimal(n);
+        }
+        BigDecimal fib = new BigDecimal(1);
+        BigDecimal prevFib =  new BigDecimal(1);
+
+        for(int i=2; i<n; i++) {
+            BigDecimal temp = fib;
+            fib = fib.add(prevFib);
+            prevFib = temp;
+        }
+        return fib;
+    }
+
+    public static long[] productFibOptimized(long prod) {
+        int actual = 1;
+        int prev = 0;
+        int tmp = 0;
+
+        while ( ( actual * prev ) < prod ){
+            tmp = actual + prev;
+            prev = actual;
+            actual = tmp;
+        }
+        return new long[]{prev, actual, ((actual * prev) == prod) ? 1 : 0};
     }
 
 }
