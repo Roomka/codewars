@@ -38,13 +38,20 @@ package com.roman.procopenco.codewars;
 
 public class ProdFib {
     /**
-     *
-     * @param prod
-     * @return
+     * Given a number prod, returns two fibonacci numbers such as F(n) * F(n + 1) = prod if it exists, otherwise
+     * <br> returns the smalles ones such as F(n) * F(n+1) > prod.
+     * @param prod product number
+     * @return array of numbers where first number is F(n), second F(n + 1) and third one 1 if  F(n) * F(n + 1) = prod
+     * <br> exists, otherwise 0.
      */
     public static long[] productFib(long prod) {
-        // your code
-        return null;
+        long firstNumber = 0L;
+        long secondNumber = 1L;
+        while (firstNumber * secondNumber < prod) {
+            long swapValue = firstNumber;
+            firstNumber = secondNumber;
+            secondNumber = swapValue + firstNumber;
+        }
+        return new long[] { firstNumber, secondNumber, firstNumber * secondNumber == prod ? 1: 0};
     }
-
 }
